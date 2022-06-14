@@ -27,6 +27,9 @@
                                 <buttonConfiguration key="configuration" style="filled" title="Start" cornerStyle="capsule">
                                     <color key="baseBackgroundColor" red="0.24689695902885425" green="0.48862653909270293" blue="0.25180569217175552" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <segue destination="gjy-2w-fCq" kind="show" id="Igd-4g-hiH"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -37,9 +40,38 @@
             </objects>
             <point key="canvasLocation" x="18.840579710144929" y="93.75"/>
         </scene>
+        <!--View Controller-->
+        <scene sceneID="3EZ-Gd-sFm">
+            <objects>
+                <viewController id="gjy-2w-fCq" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="N97-NV-aXn">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Save Our Environment Climate Change Poster (Phone Wallpaper) (6)" translatesAutoresizingMaskIntoConstraints="NO" id="NmN-WY-Bah">
+                                <rect key="frame" x="0.0" y="-52" width="441" height="919"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1By-nw-hSa">
+                                <rect key="frame" x="67" y="276" width="281" height="67"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Button" cornerStyle="capsule"/>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="p1m-zz-uRH"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="dDc-aS-o0h"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="wu1-zm-zns" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="663.768115942029" y="93.75"/>
+        </scene>
     </scenes>
     <resources>
         <image name="Save Our Environment Climate Change Poster (Phone Wallpaper) (5)" width="1620" height="2880"/>
+        <image name="Save Our Environment Climate Change Poster (Phone Wallpaper) (6)" width="1620" height="2880"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
