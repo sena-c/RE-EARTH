@@ -6,17 +6,19 @@
 //
 
 import UIKit
+import WebKit
 
 class VideosAndAudios: UITableViewController {
+    
+    @IBOutlet weak var myWebView: WKWebView!
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Uncomment the following line to preserve selection between presentations
-        // self.clearsSelectionOnViewWillAppear = false
+       
+        let googleURL = URL(string:"https://www.youtube.com/watch?v=IUN664s7N-c")
+        myWebView.load(URLRequest(url:googleURL!))
 
-        // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
-        // self.navigationItem.rightBarButtonItem = self.editButtonItem
     }
 
     // MARK: - Table view data source
