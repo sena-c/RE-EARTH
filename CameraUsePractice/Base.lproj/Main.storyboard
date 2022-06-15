@@ -63,18 +63,23 @@
                                 <color key="tintColor" red="0.75170208299999997" green="0.85145341750000003" blue="0.57778592409999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" image="globe.americas.fill" catalog="system" title="Carbon Foot Print Calculator" cornerStyle="capsule">
-                                    <color key="baseForegroundColor" red="0.2470588088" green="0.48627454040000001" blue="0.25098040700000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <color key="baseBackgroundColor" red="0.092213900066384261" green="0.2499649991694185" blue="0.085739455465761782" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
                                 <connections>
                                     <segue destination="0PK-em-byu" kind="show" id="Vfa-T7-uG9"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1By-nw-hSa">
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1By-nw-hSa">
                                 <rect key="frame" x="67" y="291" width="281" height="76"/>
                                 <color key="tintColor" red="0.2470588088" green="0.48627454040000001" blue="0.25098040700000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" image="newspaper.fill" catalog="system" title="Articles" cornerStyle="capsule">
-                                    <color key="baseForegroundColor" red="0.81960785390000002" green="0.92156863209999995" blue="0.62352943419999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <buttonConfiguration key="configuration" style="filled" image="newspaper.fill" catalog="system" cornerStyle="capsule">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="Articles"/>
+                                    </attributedString>
+                                    <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <color key="baseBackgroundColor" red="0.31866502569184973" green="0.63066061747442814" blue="0.32500063055004591" alpha="0.88688493585910921" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
                                 <connections>
                                     <segue destination="Prv-Zp-VWX" kind="show" id="kXa-Su-dGi"/>
@@ -86,7 +91,8 @@
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="Videos and Audios" cornerStyle="capsule">
                                     <imageReference key="image" image="camera.on.rectangle.fill" catalog="system" symbolScale="default"/>
-                                    <color key="baseForegroundColor" red="0.2470588088" green="0.48627454040000001" blue="0.25098040700000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    <color key="baseForegroundColor" systemColor="secondarySystemBackgroundColor"/>
+                                    <color key="baseBackgroundColor" red="0.17254635455084327" green="0.46772286326614854" blue="0.16043167538886688" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
                                 <connections>
                                     <segue destination="C00-fd-qZ3" kind="show" id="Vid-oc-THL"/>
@@ -96,8 +102,9 @@
                                 <rect key="frame" x="67" y="529" width="281" height="76"/>
                                 <color key="tintColor" red="0.2470588088" green="0.48627454040000001" blue="0.25098040700000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" image="megaphone.fill" catalog="system" title="How to Help" cornerStyle="capsule">
-                                    <color key="baseForegroundColor" red="0.81960785390000002" green="0.92156863209999995" blue="0.62352943419999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <buttonConfiguration key="configuration" style="filled" image="megaphone.fill" catalog="system" title="Climate Toolkit" cornerStyle="capsule">
+                                    <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <color key="baseBackgroundColor" red="0.12539180120513452" green="0.33990061651800096" blue="0.11658789778395323" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
                                 <connections>
                                     <segue destination="2kd-fv-zdm" kind="show" id="N2m-ou-h70"/>
@@ -143,6 +150,15 @@
                                 <rect key="frame" x="17" y="125" width="380" height="226"/>
                                 <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </webView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="carbon footprint (1)" translatesAutoresizingMaskIntoConstraints="NO" id="BQ5-Wn-31G">
+                                <rect key="frame" x="-1" y="-33" width="439" height="876"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="arrow.backward.circle" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="vXp-sK-u9v">
+                                <rect key="frame" x="-15" y="30.5" width="116" height="45"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" red="0.40814604160000001" green="0.3448207009" blue="0.25424943639999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6bo-Je-crp"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -157,7 +173,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0dG-UD-UCF" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="988" y="812"/>
+            <point key="canvasLocation" x="986.95652173913049" y="811.60714285714278"/>
         </scene>
         <!--How to Help-->
         <scene sceneID="Nro-ow-8r7">
@@ -168,7 +184,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Save Our Environment Climate Change Poster (Phone Wallpaper) (7)" translatesAutoresizingMaskIntoConstraints="NO" id="cYj-bz-KYb">
-                                <rect key="frame" x="-7" y="-31" width="454" height="868"/>
+                                <rect key="frame" x="-7" y="-31" width="454" height="873"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="arrow.backward.circle" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="a5K-Yp-KuZ">
@@ -193,6 +209,17 @@
                     <view key="view" contentMode="scaleToFill" id="e0F-CX-ihD">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="articles page" translatesAutoresizingMaskIntoConstraints="NO" id="9ch-MT-F7f">
+                                <rect key="frame" x="0.0" y="-23" width="438" height="865"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="arrow.backward.circle" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="Rck-iV-nth">
+                                <rect key="frame" x="-13" y="38.5" width="116" height="45"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" red="0.40814604160000001" green="0.3448207009" blue="0.25424943639999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            </imageView>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="1g9-TI-PoY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
@@ -200,7 +227,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fVC-Ko-tEC" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1796" y="89"/>
+            <point key="canvasLocation" x="1795.6521739130437" y="88.392857142857139"/>
         </scene>
         <!--Carbon Foot Print-->
         <scene sceneID="6la-OC-doS">
@@ -209,6 +236,17 @@
                     <view key="view" contentMode="scaleToFill" id="T5e-Xp-Cha">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="carbon footprint" translatesAutoresizingMaskIntoConstraints="NO" id="g4s-yC-bze">
+                                <rect key="frame" x="0.0" y="-19" width="438" height="865"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="arrow.backward.circle" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="dz5-bU-mOf">
+                                <rect key="frame" x="-15" y="43.5" width="116" height="45"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" red="0.40814604160000001" green="0.3448207009" blue="0.25424943639999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            </imageView>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="IsF-ih-vqS"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
@@ -224,10 +262,16 @@
         <image name="Save Our Environment Climate Change Poster (Phone Wallpaper) (6)" width="1620" height="2880"/>
         <image name="Save Our Environment Climate Change Poster (Phone Wallpaper) (7)" width="1620" height="2880"/>
         <image name="arrow.backward.circle" catalog="system" width="128" height="121"/>
+        <image name="articles page" width="1620" height="2880"/>
         <image name="camera.on.rectangle.fill" catalog="system" width="128" height="96"/>
+        <image name="carbon footprint" width="1620" height="2880"/>
+        <image name="carbon footprint (1)" width="1620" height="2880"/>
         <image name="globe.americas.fill" catalog="system" width="128" height="121"/>
         <image name="megaphone.fill" catalog="system" width="128" height="114"/>
         <image name="newspaper.fill" catalog="system" width="128" height="111"/>
+        <systemColor name="secondarySystemBackgroundColor">
+            <color red="0.94901960784313721" green="0.94901960784313721" blue="0.96862745098039216" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
