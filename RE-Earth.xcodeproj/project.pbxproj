@@ -91,7 +91,7 @@
 		E6307AC42858DDF200A511FD = {
 			isa = PBXGroup;
 			children = (
-				E6307ACF2858DDF200A511FD /* CameraUsePractice */,
+				E6307ACF2858DDF200A511FD /* RE-Earth */,
 				E6307AE92858DDF500A511FD /* CameraUsePracticeTests */,
 				E6307AF32858DDF500A511FD /* CameraUsePracticeUITests */,
 				E6307ACE2858DDF200A511FD /* Products */,
@@ -108,7 +108,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		E6307ACF2858DDF200A511FD /* CameraUsePractice */ = {
+		E6307ACF2858DDF200A511FD /* RE-Earth */ = {
 			isa = PBXGroup;
 			children = (
 				E6307AD02858DDF200A511FD /* AppDelegate.swift */,
@@ -121,7 +121,7 @@
 				E6307AD92858DDF200A511FD /* CameraUsePractice.xcdatamodeld */,
 				F6E09AAD285973750008429E /* AppSwiftPages */,
 			);
-			path = CameraUsePractice;
+			path = "RE-Earth";
 			sourceTree = "<group>";
 		};
 		E6307AE92858DDF500A511FD /* CameraUsePracticeTests */ = {
@@ -232,7 +232,7 @@
 					};
 				};
 			};
-			buildConfigurationList = E6307AC82858DDF200A511FD /* Build configuration list for PBXProject "CameraUsePractice" */;
+			buildConfigurationList = E6307AC82858DDF200A511FD /* Build configuration list for PBXProject "RE-Earth" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -470,7 +470,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = CameraUsePractice/Info.plist;
+				INFOPLIST_FILE = "RE-Earth/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -481,7 +481,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = SenaChang.CameraUsePractice;
+				PRODUCT_BUNDLE_IDENTIFIER = "SenaChang.RE-Earth";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -497,7 +497,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = CameraUsePractice/Info.plist;
+				INFOPLIST_FILE = "RE-Earth/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -508,7 +508,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = SenaChang.CameraUsePractice;
+				PRODUCT_BUNDLE_IDENTIFIER = "SenaChang.RE-Earth";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -591,7 +591,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		E6307AC82858DDF200A511FD /* Build configuration list for PBXProject "CameraUsePractice" */ = {
+		E6307AC82858DDF200A511FD /* Build configuration list for PBXProject "RE-Earth" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E6307AF82858DDF500A511FD /* Debug */,
