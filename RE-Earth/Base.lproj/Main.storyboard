@@ -10,6 +10,84 @@
     </dependencies>
     <scenes>
         <!--View Controller-->
+        <scene sceneID="aR4-Vl-25w">
+            <objects>
+                <viewController id="aPC-wH-6pV" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="JhW-SF-8wO">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Save Our Environment Climate Change Poster (Phone Wallpaper) (6)" translatesAutoresizingMaskIntoConstraints="NO" id="NmN-WY-Bah">
+                                <rect key="frame" x="0.0" y="-51" width="441" height="919"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="E4u-f4-m5Y">
+                                <rect key="frame" x="67" y="545" width="281" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" red="0.2470588088" green="0.48627454040000001" blue="0.25098040700000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" image="megaphone.fill" catalog="system" title="Climate Toolkit" cornerStyle="capsule">
+                                    <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <color key="baseBackgroundColor" red="0.12539180120513452" green="0.33990061651800096" blue="0.11658789778395323" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <segue destination="2kd-fv-zdm" kind="show" id="N2m-ou-h70"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zQX-IH-6Vk">
+                                <rect key="frame" x="67" y="443" width="281" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" red="0.81960785390000002" green="0.92156863209999995" blue="0.62352943419999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Videos and Audios" cornerStyle="capsule">
+                                    <imageReference key="image" image="camera.on.rectangle.fill" catalog="system" symbolScale="default"/>
+                                    <color key="baseForegroundColor" systemColor="secondarySystemBackgroundColor"/>
+                                    <color key="baseBackgroundColor" red="0.17254635455084327" green="0.46772286326614854" blue="0.16043167538886688" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <segue destination="C00-fd-qZ3" kind="show" id="Vid-oc-THL"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1By-nw-hSa">
+                                <rect key="frame" x="67" y="344" width="281" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" red="0.2470588088" green="0.48627454040000001" blue="0.25098040700000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" image="newspaper.fill" catalog="system" cornerStyle="capsule">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="Articles"/>
+                                    </attributedString>
+                                    <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <color key="baseBackgroundColor" red="0.31866502569184973" green="0.63066061747442814" blue="0.32500063055004591" alpha="0.88688493585910921" colorSpace="custom" customColorSpace="displayP3"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <segue destination="Prv-Zp-VWX" kind="show" id="kXa-Su-dGi"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AZ3-CM-hW9">
+                                <rect key="frame" x="67" y="639" width="281" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" red="0.75170208299999997" green="0.85145341750000003" blue="0.57778592409999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" image="globe.americas.fill" catalog="system" title="Carbon Foot Print Calculator" cornerStyle="capsule">
+                                    <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <color key="baseBackgroundColor" red="0.092213900066384261" green="0.2499649991694185" blue="0.085739455465761782" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <segue destination="0PK-em-byu" kind="show" id="Vfa-T7-uG9"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="A1p-Ha-uF0"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="h4I-Vb-Tpk"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="BnA-qP-iTR" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-717" y="-61"/>
+        </scene>
+        <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="CameraUsePractice" customModuleProvider="target" sceneMemberID="viewController">
@@ -28,7 +106,7 @@
                                     <color key="baseBackgroundColor" red="0.24689695902885425" green="0.48862653909270293" blue="0.25180569217175552" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <segue destination="gjy-2w-fCq" kind="show" id="Igd-4g-hiH"/>
+                                    <segue destination="aPC-wH-6pV" kind="show" id="46t-DT-3je"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -45,98 +123,6 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="18.840579710144929" y="93.75"/>
-        </scene>
-        <!--Main Page-->
-        <scene sceneID="3EZ-Gd-sFm">
-            <objects>
-                <viewController id="gjy-2w-fCq" customClass="MainPage" customModule="CameraUsePractice" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="N97-NV-aXn">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Save Our Environment Climate Change Poster (Phone Wallpaper) (6)" translatesAutoresizingMaskIntoConstraints="NO" id="NmN-WY-Bah">
-                                <rect key="frame" x="0.0" y="-52" width="441" height="919"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AZ3-CM-hW9">
-                                <rect key="frame" x="67" y="649" width="281" height="76"/>
-                                <color key="tintColor" red="0.75170208299999997" green="0.85145341750000003" blue="0.57778592409999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" image="globe.americas.fill" catalog="system" title="Carbon Foot Print Calculator" cornerStyle="capsule">
-                                    <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                    <color key="baseBackgroundColor" red="0.092213900066384261" green="0.2499649991694185" blue="0.085739455465761782" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                </buttonConfiguration>
-                                <connections>
-                                    <segue destination="0PK-em-byu" kind="show" id="Vfa-T7-uG9"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1By-nw-hSa">
-                                <rect key="frame" x="67" y="291" width="281" height="76"/>
-                                <color key="tintColor" red="0.2470588088" green="0.48627454040000001" blue="0.25098040700000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" image="newspaper.fill" catalog="system" cornerStyle="capsule">
-                                    <attributedString key="attributedTitle">
-                                        <fragment content="Articles"/>
-                                    </attributedString>
-                                    <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                    <color key="baseBackgroundColor" red="0.31866502569184973" green="0.63066061747442814" blue="0.32500063055004591" alpha="0.88688493585910921" colorSpace="custom" customColorSpace="displayP3"/>
-                                </buttonConfiguration>
-                                <connections>
-                                    <segue destination="Prv-Zp-VWX" kind="show" id="kXa-Su-dGi"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zQX-IH-6Vk">
-                                <rect key="frame" x="67" y="405" width="281" height="76"/>
-                                <color key="tintColor" red="0.81960785390000002" green="0.92156863209999995" blue="0.62352943419999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="Videos and Audios" cornerStyle="capsule">
-                                    <imageReference key="image" image="camera.on.rectangle.fill" catalog="system" symbolScale="default"/>
-                                    <color key="baseForegroundColor" systemColor="secondarySystemBackgroundColor"/>
-                                    <color key="baseBackgroundColor" red="0.17254635455084327" green="0.46772286326614854" blue="0.16043167538886688" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                </buttonConfiguration>
-                                <connections>
-                                    <segue destination="C00-fd-qZ3" kind="show" id="Vid-oc-THL"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="E4u-f4-m5Y">
-                                <rect key="frame" x="67" y="529" width="281" height="76"/>
-                                <color key="tintColor" red="0.2470588088" green="0.48627454040000001" blue="0.25098040700000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" image="megaphone.fill" catalog="system" title="Climate Toolkit" cornerStyle="capsule">
-                                    <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                    <color key="baseBackgroundColor" red="0.12539180120513452" green="0.33990061651800096" blue="0.11658789778395323" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                </buttonConfiguration>
-                                <connections>
-                                    <segue destination="2kd-fv-zdm" kind="show" id="N2m-ou-h70"/>
-                                </connections>
-                            </button>
-                        </subviews>
-                        <viewLayoutGuide key="safeArea" id="p1m-zz-uRH"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                        <constraints>
-                            <constraint firstItem="p1m-zz-uRH" firstAttribute="trailing" secondItem="AZ3-CM-hW9" secondAttribute="trailing" constant="66" id="0gi-kX-OMd"/>
-                            <constraint firstItem="zQX-IH-6Vk" firstAttribute="top" secondItem="1By-nw-hSa" secondAttribute="bottom" constant="52" id="5Iu-61-iHL"/>
-                            <constraint firstItem="p1m-zz-uRH" firstAttribute="bottom" secondItem="AZ3-CM-hW9" secondAttribute="bottom" constant="162" id="73A-7h-hLe"/>
-                            <constraint firstItem="AZ3-CM-hW9" firstAttribute="top" secondItem="E4u-f4-m5Y" secondAttribute="bottom" constant="91" id="7at-gQ-bxh"/>
-                            <constraint firstItem="E4u-f4-m5Y" firstAttribute="top" secondItem="zQX-IH-6Vk" secondAttribute="bottom" constant="137" id="7q5-Lm-z2R"/>
-                            <constraint firstItem="zQX-IH-6Vk" firstAttribute="top" secondItem="1By-nw-hSa" secondAttribute="bottom" constant="52" id="9gw-KX-Q0r"/>
-                            <constraint firstItem="zQX-IH-6Vk" firstAttribute="leading" secondItem="p1m-zz-uRH" secondAttribute="leading" constant="67" id="CaH-rr-JYk"/>
-                            <constraint firstItem="p1m-zz-uRH" firstAttribute="trailing" secondItem="zQX-IH-6Vk" secondAttribute="trailing" constant="66" id="Hgw-Jn-sp4"/>
-                            <constraint firstItem="p1m-zz-uRH" firstAttribute="trailing" secondItem="1By-nw-hSa" secondAttribute="trailing" constant="66" id="OF0-GY-M7e"/>
-                            <constraint firstItem="AZ3-CM-hW9" firstAttribute="top" secondItem="E4u-f4-m5Y" secondAttribute="bottom" constant="91" id="S0J-TX-SWR"/>
-                            <constraint firstItem="E4u-f4-m5Y" firstAttribute="leading" secondItem="p1m-zz-uRH" secondAttribute="leading" constant="67" id="TMS-fC-ySD"/>
-                            <constraint firstItem="1By-nw-hSa" firstAttribute="leading" secondItem="p1m-zz-uRH" secondAttribute="leading" constant="67" id="cJQ-m0-oJX"/>
-                            <constraint firstItem="1By-nw-hSa" firstAttribute="top" secondItem="p1m-zz-uRH" secondAttribute="top" constant="232" id="dT6-je-jT5"/>
-                            <constraint firstItem="p1m-zz-uRH" firstAttribute="trailing" secondItem="E4u-f4-m5Y" secondAttribute="trailing" constant="66" id="i0V-Fo-NqS"/>
-                            <constraint firstItem="AZ3-CM-hW9" firstAttribute="leading" secondItem="p1m-zz-uRH" secondAttribute="leading" constant="67" id="rPb-O7-Fkh"/>
-                            <constraint firstItem="E4u-f4-m5Y" firstAttribute="top" secondItem="zQX-IH-6Vk" secondAttribute="bottom" constant="137" id="vxQ-sY-3cd"/>
-                        </constraints>
-                    </view>
-                    <navigationItem key="navigationItem" id="dDc-aS-o0h"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="wu1-zm-zns" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="940.57971014492762" y="93.75"/>
         </scene>
         <!--Videos and Audios-->
         <scene sceneID="kZh-ng-arj">
