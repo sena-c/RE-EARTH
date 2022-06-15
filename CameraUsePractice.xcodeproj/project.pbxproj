@@ -17,6 +17,11 @@
 		E6307AEB2858DDF500A511FD /* CameraUsePracticeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6307AEA2858DDF500A511FD /* CameraUsePracticeTests.swift */; };
 		E6307AF52858DDF500A511FD /* CameraUsePracticeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6307AF42858DDF500A511FD /* CameraUsePracticeUITests.swift */; };
 		E6307AF72858DDF500A511FD /* CameraUsePracticeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6307AF62858DDF500A511FD /* CameraUsePracticeUITestsLaunchTests.swift */; };
+		F6E09AA22859729F0008429E /* MainPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6E09AA12859729F0008429E /* MainPage.swift */; };
+		F6E09AA4285972C30008429E /* Articles.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6E09AA3285972C30008429E /* Articles.swift */; };
+		F6E09AA6285972EC0008429E /* VideosAndAudios.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6E09AA5285972EC0008429E /* VideosAndAudios.swift */; };
+		F6E09AA8285973120008429E /* CarbonFootCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6E09AA7285973120008429E /* CarbonFootCalculator.swift */; };
+		F6E09AAA285973230008429E /* HowToHelp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6E09AA9285973230008429E /* HowToHelp.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +56,11 @@
 		E6307AF02858DDF500A511FD /* CameraUsePracticeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CameraUsePracticeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E6307AF42858DDF500A511FD /* CameraUsePracticeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraUsePracticeUITests.swift; sourceTree = "<group>"; };
 		E6307AF62858DDF500A511FD /* CameraUsePracticeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraUsePracticeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F6E09AA12859729F0008429E /* MainPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainPage.swift; sourceTree = "<group>"; };
+		F6E09AA3285972C30008429E /* Articles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Articles.swift; sourceTree = "<group>"; };
+		F6E09AA5285972EC0008429E /* VideosAndAudios.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideosAndAudios.swift; sourceTree = "<group>"; };
+		F6E09AA7285973120008429E /* CarbonFootCalculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarbonFootCalculator.swift; sourceTree = "<group>"; };
+		F6E09AA9285973230008429E /* HowToHelp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HowToHelp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +119,7 @@
 				E6307ADE2858DDF500A511FD /* LaunchScreen.storyboard */,
 				E6307AE12858DDF500A511FD /* Info.plist */,
 				E6307AD92858DDF200A511FD /* CameraUsePractice.xcdatamodeld */,
+				F6E09AAD285973750008429E /* AppSwiftPages */,
 			);
 			path = CameraUsePractice;
 			sourceTree = "<group>";
@@ -128,6 +139,18 @@
 				E6307AF62858DDF500A511FD /* CameraUsePracticeUITestsLaunchTests.swift */,
 			);
 			path = CameraUsePracticeUITests;
+			sourceTree = "<group>";
+		};
+		F6E09AAD285973750008429E /* AppSwiftPages */ = {
+			isa = PBXGroup;
+			children = (
+				F6E09AA12859729F0008429E /* MainPage.swift */,
+				F6E09AA5285972EC0008429E /* VideosAndAudios.swift */,
+				F6E09AA3285972C30008429E /* Articles.swift */,
+				F6E09AA9285973230008429E /* HowToHelp.swift */,
+				F6E09AA7285973120008429E /* CarbonFootCalculator.swift */,
+			);
+			path = AppSwiftPages;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -261,10 +284,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F6E09AA22859729F0008429E /* MainPage.swift in Sources */,
+				F6E09AAA285973230008429E /* HowToHelp.swift in Sources */,
 				E6307AD52858DDF200A511FD /* ViewController.swift in Sources */,
 				E6307AD12858DDF200A511FD /* AppDelegate.swift in Sources */,
 				E6307AD32858DDF200A511FD /* SceneDelegate.swift in Sources */,
+				F6E09AA8285973120008429E /* CarbonFootCalculator.swift in Sources */,
+				F6E09AA4285972C30008429E /* Articles.swift in Sources */,
 				E6307ADB2858DDF200A511FD /* CameraUsePractice.xcdatamodeld in Sources */,
+				F6E09AA6285972EC0008429E /* VideosAndAudios.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

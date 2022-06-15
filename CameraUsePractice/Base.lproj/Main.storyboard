@@ -3,6 +3,7 @@
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Image references" minToolsVersion="12.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -16,9 +17,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Save Our Environment Climate Change Poster (Phone Wallpaper) (5)" translatesAutoresizingMaskIntoConstraints="NO" id="Db6-n5-Jhn">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Save Our Environment Climate Change Poster (Phone Wallpaper) (5)" translatesAutoresizingMaskIntoConstraints="NO" id="Db6-n5-Jhn">
                                 <rect key="frame" x="-13" y="-11" width="441" height="919"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yPZ-A8-s3q">
                                 <rect key="frame" x="133" y="710" width="148" height="53"/>
@@ -34,16 +34,22 @@
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="Db6-n5-Jhn" secondAttribute="trailing" constant="-14" id="8Gb-uV-u8j"/>
+                            <constraint firstItem="Db6-n5-Jhn" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="-11" id="OJK-ar-SKt"/>
+                            <constraint firstAttribute="bottom" secondItem="Db6-n5-Jhn" secondAttribute="bottom" constant="-12" id="Rq9-eq-xtV"/>
+                            <constraint firstItem="Db6-n5-Jhn" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="-13" id="mQ9-Yu-zST"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="18.840579710144929" y="93.75"/>
         </scene>
-        <!--View Controller-->
+        <!--Main Page-->
         <scene sceneID="3EZ-Gd-sFm">
             <objects>
-                <viewController id="gjy-2w-fCq" sceneMemberID="viewController">
+                <viewController id="gjy-2w-fCq" customClass="MainPage" customModule="CameraUsePractice" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="N97-NV-aXn">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -52,26 +58,163 @@
                                 <rect key="frame" x="0.0" y="-52" width="441" height="919"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1By-nw-hSa">
-                                <rect key="frame" x="67" y="276" width="281" height="67"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AZ3-CM-hW9">
+                                <rect key="frame" x="67" y="649" width="281" height="76"/>
+                                <color key="tintColor" red="0.75170208299999997" green="0.85145341750000003" blue="0.57778592409999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="Button" cornerStyle="capsule"/>
+                                <buttonConfiguration key="configuration" style="filled" image="globe.americas.fill" catalog="system" title="Carbon Foot Print Calculator" cornerStyle="capsule">
+                                    <color key="baseForegroundColor" red="0.2470588088" green="0.48627454040000001" blue="0.25098040700000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <segue destination="0PK-em-byu" kind="show" id="Vfa-T7-uG9"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1By-nw-hSa">
+                                <rect key="frame" x="67" y="291" width="281" height="76"/>
+                                <color key="tintColor" red="0.2470588088" green="0.48627454040000001" blue="0.25098040700000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" image="newspaper.fill" catalog="system" title="Articles" cornerStyle="capsule">
+                                    <color key="baseForegroundColor" red="0.81960785390000002" green="0.92156863209999995" blue="0.62352943419999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <segue destination="Prv-Zp-VWX" kind="show" id="kXa-Su-dGi"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zQX-IH-6Vk">
+                                <rect key="frame" x="67" y="405" width="281" height="76"/>
+                                <color key="tintColor" red="0.81960785390000002" green="0.92156863209999995" blue="0.62352943419999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Videos and Audios" cornerStyle="capsule">
+                                    <imageReference key="image" image="camera.on.rectangle.fill" catalog="system" symbolScale="default"/>
+                                    <color key="baseForegroundColor" red="0.2470588088" green="0.48627454040000001" blue="0.25098040700000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <segue destination="C00-fd-qZ3" kind="show" id="Vid-oc-THL"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="E4u-f4-m5Y">
+                                <rect key="frame" x="67" y="529" width="281" height="76"/>
+                                <color key="tintColor" red="0.2470588088" green="0.48627454040000001" blue="0.25098040700000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" image="megaphone.fill" catalog="system" title="How to Help" cornerStyle="capsule">
+                                    <color key="baseForegroundColor" red="0.81960785390000002" green="0.92156863209999995" blue="0.62352943419999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <segue destination="2kd-fv-zdm" kind="show" id="N2m-ou-h70"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="p1m-zz-uRH"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="p1m-zz-uRH" firstAttribute="trailing" secondItem="AZ3-CM-hW9" secondAttribute="trailing" constant="66" id="0gi-kX-OMd"/>
+                            <constraint firstItem="zQX-IH-6Vk" firstAttribute="top" secondItem="1By-nw-hSa" secondAttribute="bottom" constant="52" id="5Iu-61-iHL"/>
+                            <constraint firstItem="p1m-zz-uRH" firstAttribute="bottom" secondItem="AZ3-CM-hW9" secondAttribute="bottom" constant="162" id="73A-7h-hLe"/>
+                            <constraint firstItem="AZ3-CM-hW9" firstAttribute="top" secondItem="E4u-f4-m5Y" secondAttribute="bottom" constant="91" id="7at-gQ-bxh"/>
+                            <constraint firstItem="E4u-f4-m5Y" firstAttribute="top" secondItem="zQX-IH-6Vk" secondAttribute="bottom" constant="137" id="7q5-Lm-z2R"/>
+                            <constraint firstItem="zQX-IH-6Vk" firstAttribute="top" secondItem="1By-nw-hSa" secondAttribute="bottom" constant="52" id="9gw-KX-Q0r"/>
+                            <constraint firstItem="zQX-IH-6Vk" firstAttribute="leading" secondItem="p1m-zz-uRH" secondAttribute="leading" constant="67" id="CaH-rr-JYk"/>
+                            <constraint firstItem="p1m-zz-uRH" firstAttribute="trailing" secondItem="zQX-IH-6Vk" secondAttribute="trailing" constant="66" id="Hgw-Jn-sp4"/>
+                            <constraint firstItem="p1m-zz-uRH" firstAttribute="trailing" secondItem="1By-nw-hSa" secondAttribute="trailing" constant="66" id="OF0-GY-M7e"/>
+                            <constraint firstItem="AZ3-CM-hW9" firstAttribute="top" secondItem="E4u-f4-m5Y" secondAttribute="bottom" constant="91" id="S0J-TX-SWR"/>
+                            <constraint firstItem="E4u-f4-m5Y" firstAttribute="leading" secondItem="p1m-zz-uRH" secondAttribute="leading" constant="67" id="TMS-fC-ySD"/>
+                            <constraint firstItem="1By-nw-hSa" firstAttribute="leading" secondItem="p1m-zz-uRH" secondAttribute="leading" constant="67" id="cJQ-m0-oJX"/>
+                            <constraint firstItem="1By-nw-hSa" firstAttribute="top" secondItem="p1m-zz-uRH" secondAttribute="top" constant="232" id="dT6-je-jT5"/>
+                            <constraint firstItem="p1m-zz-uRH" firstAttribute="trailing" secondItem="E4u-f4-m5Y" secondAttribute="trailing" constant="66" id="i0V-Fo-NqS"/>
+                            <constraint firstItem="AZ3-CM-hW9" firstAttribute="leading" secondItem="p1m-zz-uRH" secondAttribute="leading" constant="67" id="rPb-O7-Fkh"/>
+                            <constraint firstItem="E4u-f4-m5Y" firstAttribute="top" secondItem="zQX-IH-6Vk" secondAttribute="bottom" constant="137" id="vxQ-sY-3cd"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="dDc-aS-o0h"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="wu1-zm-zns" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="663.768115942029" y="93.75"/>
+            <point key="canvasLocation" x="940.57971014492762" y="93.75"/>
+        </scene>
+        <!--Videos and Audios-->
+        <scene sceneID="kZh-ng-arj">
+            <objects>
+                <viewController storyboardIdentifier="Videos and Audios" id="C00-fd-qZ3" userLabel="Videos and Audios" customClass="VideosAndAudios" customModule="CameraUsePractice" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="B3U-zC-LCF">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="L8G-BD-fmO">
+                                <rect key="frame" x="17" y="125" width="380" height="226"/>
+                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </webView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6bo-Je-crp"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="6bo-Je-crp" firstAttribute="trailing" secondItem="L8G-BD-fmO" secondAttribute="trailing" constant="17" id="CJJ-Ft-OdA"/>
+                            <constraint firstItem="L8G-BD-fmO" firstAttribute="top" secondItem="6bo-Je-crp" secondAttribute="top" constant="81" id="WKa-oT-Ro1"/>
+                            <constraint firstItem="L8G-BD-fmO" firstAttribute="leading" secondItem="6bo-Je-crp" secondAttribute="leading" constant="17" id="qre-ck-Wmq"/>
+                            <constraint firstItem="6bo-Je-crp" firstAttribute="bottom" secondItem="L8G-BD-fmO" secondAttribute="bottom" constant="491" id="upN-ar-Icg"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="hCv-bs-yc0"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="0dG-UD-UCF" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="988" y="812"/>
+        </scene>
+        <!--How to Help-->
+        <scene sceneID="Nro-ow-8r7">
+            <objects>
+                <viewController id="2kd-fv-zdm" userLabel="How to Help" customClass="HowToHelp" customModule="CameraUsePractice" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="JTM-M2-m6Q" userLabel="How to Help">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="krO-jp-5zz"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="aNZ-TK-6zV"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="lNi-nf-LqG" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1837" y="778"/>
+        </scene>
+        <!--Articles-->
+        <scene sceneID="PqG-q0-ZLt">
+            <objects>
+                <viewController id="Prv-Zp-VWX" userLabel="Articles" customClass="Articles" customModule="CameraUsePractice" customModuleProvider="target" colorLabel="IBBuiltInLabel-Purple" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="e0F-CX-ihD">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="1g9-TI-PoY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="07m-yh-455"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fVC-Ko-tEC" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1796" y="89"/>
+        </scene>
+        <!--Carbon Foot Print-->
+        <scene sceneID="6la-OC-doS">
+            <objects>
+                <viewController id="0PK-em-byu" userLabel="Carbon Foot Print" customClass="CarbonFootCalculator" customModule="CameraUsePractice" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="T5e-Xp-Cha">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="IsF-ih-vqS"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="d8q-5v-zfP"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="lCs-pF-b3N" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2617" y="218"/>
         </scene>
     </scenes>
     <resources>
         <image name="Save Our Environment Climate Change Poster (Phone Wallpaper) (5)" width="1620" height="2880"/>
         <image name="Save Our Environment Climate Change Poster (Phone Wallpaper) (6)" width="1620" height="2880"/>
+        <image name="camera.on.rectangle.fill" catalog="system" width="128" height="96"/>
+        <image name="globe.americas.fill" catalog="system" width="128" height="121"/>
+        <image name="megaphone.fill" catalog="system" width="128" height="114"/>
+        <image name="newspaper.fill" catalog="system" width="128" height="111"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
