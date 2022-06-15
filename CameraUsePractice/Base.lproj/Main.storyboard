@@ -166,6 +166,17 @@
                     <view key="view" contentMode="scaleToFill" id="JTM-M2-m6Q" userLabel="How to Help">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Save Our Environment Climate Change Poster (Phone Wallpaper) (7)" translatesAutoresizingMaskIntoConstraints="NO" id="cYj-bz-KYb">
+                                <rect key="frame" x="-7" y="-31" width="454" height="868"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="arrow.backward.circle" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="a5K-Yp-KuZ">
+                                <rect key="frame" x="-15" y="32.5" width="116" height="45"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" red="0.40814604157025047" green="0.34482070093213635" blue="0.25424943636461989" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            </imageView>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="krO-jp-5zz"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
@@ -173,7 +184,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="lNi-nf-LqG" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1837" y="778"/>
+            <point key="canvasLocation" x="1836.2318840579712" y="777.45535714285711"/>
         </scene>
         <!--Articles-->
         <scene sceneID="PqG-q0-ZLt">
@@ -211,6 +222,8 @@
     <resources>
         <image name="Save Our Environment Climate Change Poster (Phone Wallpaper) (5)" width="1620" height="2880"/>
         <image name="Save Our Environment Climate Change Poster (Phone Wallpaper) (6)" width="1620" height="2880"/>
+        <image name="Save Our Environment Climate Change Poster (Phone Wallpaper) (7)" width="1620" height="2880"/>
+        <image name="arrow.backward.circle" catalog="system" width="128" height="121"/>
         <image name="camera.on.rectangle.fill" catalog="system" width="128" height="96"/>
         <image name="globe.americas.fill" catalog="system" width="128" height="121"/>
         <image name="megaphone.fill" catalog="system" width="128" height="114"/>
