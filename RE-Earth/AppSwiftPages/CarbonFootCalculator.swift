@@ -8,10 +8,16 @@
 import UIKit
 
 class CarbonFootCalculator: UITableViewController {
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
+    }
+    @IBAction func CarbonCal(_ sender: Any) {
+UIApplication.shared.open(URL(string:"https://ww.footprintcalculato.org/home/en")! as URL, options: [:], completionHandler:nil)
+        }}
+    
+    
         // Uncomment the following line to preserve selection between presentations
         // self.clearsSelectionOnViewWillAppear = false
 

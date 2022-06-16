@@ -13,7 +13,6 @@
 		E6307AD82858DDF200A511FD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E6307AD62858DDF200A511FD /* Main.storyboard */; };
 		E6307ADB2858DDF200A511FD /* CameraUsePractice.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E6307AD92858DDF200A511FD /* CameraUsePractice.xcdatamodeld */; };
 		E6307ADD2858DDF500A511FD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E6307ADC2858DDF500A511FD /* Assets.xcassets */; };
-		E6307AE02858DDF500A511FD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E6307ADE2858DDF500A511FD /* LaunchScreen.storyboard */; };
 		E6307AEB2858DDF500A511FD /* CameraUsePracticeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6307AEA2858DDF500A511FD /* CameraUsePracticeTests.swift */; };
 		E6307AF52858DDF500A511FD /* CameraUsePracticeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6307AF42858DDF500A511FD /* CameraUsePracticeUITests.swift */; };
 		E6307AF72858DDF500A511FD /* CameraUsePracticeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6307AF62858DDF500A511FD /* CameraUsePracticeUITestsLaunchTests.swift */; };
@@ -49,7 +48,6 @@
 		E6307AD72858DDF200A511FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E6307ADA2858DDF200A511FD /* CameraUsePractice.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CameraUsePractice.xcdatamodel; sourceTree = "<group>"; };
 		E6307ADC2858DDF500A511FD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		E6307ADF2858DDF500A511FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E6307AE12858DDF500A511FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E6307AE62858DDF500A511FD /* CameraUsePracticeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CameraUsePracticeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E6307AEA2858DDF500A511FD /* CameraUsePracticeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraUsePracticeTests.swift; sourceTree = "<group>"; };
@@ -116,7 +114,6 @@
 				E6307AD42858DDF200A511FD /* ViewController.swift */,
 				E6307AD62858DDF200A511FD /* Main.storyboard */,
 				E6307ADC2858DDF500A511FD /* Assets.xcassets */,
-				E6307ADE2858DDF500A511FD /* LaunchScreen.storyboard */,
 				E6307AE12858DDF500A511FD /* Info.plist */,
 				E6307AD92858DDF200A511FD /* CameraUsePractice.xcdatamodeld */,
 				F6E09AAD285973750008429E /* AppSwiftPages */,
@@ -257,7 +254,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E6307AE02858DDF500A511FD /* LaunchScreen.storyboard in Resources */,
 				E6307ADD2858DDF500A511FD /* Assets.xcassets in Resources */,
 				E6307AD82858DDF200A511FD /* Main.storyboard in Resources */,
 			);
@@ -335,14 +331,6 @@
 				E6307AD72858DDF200A511FD /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		E6307ADE2858DDF500A511FD /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E6307ADF2858DDF500A511FD /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */

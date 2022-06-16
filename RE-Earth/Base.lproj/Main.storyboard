@@ -153,6 +153,20 @@
                                     <segue destination="aPC-wH-6pV" kind="show" id="cYB-tV-f0Q"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dGu-87-gox">
+                                <rect key="frame" x="59" y="432" width="281" height="62"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" red="0.75170208299999997" green="0.85145341750000003" blue="0.57778592409999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" image="globe.americas.fill" catalog="system" imagePlacement="leading" title="Carbon Foot Print Calculator" imagePadding="10" cornerStyle="capsule">
+                                    <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <color key="baseBackgroundColor" red="0.092213900069999993" green="0.24996499920000001" blue="0.085739455470000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="CarbonCal:" destination="0ab-PW-KDn" eventType="touchUpInside" id="MVN-LY-Y24"/>
+                                    <action selector="CarbonCalculator:" destination="0ab-PW-KDn" eventType="touchUpInside" id="ueq-oM-ODs"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="cst-mG-qo4"/>
                         <color key="backgroundColor" red="0.72160714859999997" green="0.7764926553" blue="0.74117249249999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -160,6 +174,7 @@
                     <navigationItem key="navigationItem" id="bdO-t8-xBG"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x4e-bP-b68" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <exit id="0ab-PW-KDn" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
             <point key="canvasLocation" x="160.86956521739131" y="764.73214285714278"/>
         </scene>
@@ -254,11 +269,11 @@
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="29" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qoI-MK-GQK">
                                                 <rect key="frame" x="35" y="243" width="345" height="804"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <mutableString key="text">Four key climate change indicators all set new record highs in 2021, the United Nations has said, warning that the global energy system was driving humanity towards catastrophe and calling for an urgent transition to renewable energy.
+                                                <string key="text">Four key climate change indicators all set new record highs in 2021, the United Nations has said, warning that the global energy system was driving humanity towards catastrophe and calling for an urgent transition to renewable energy.
 
 Greenhouse gas concentrations, sea level rise, ocean heat and ocean acidification all set new records last year, the UN’s World Meteorological Organization (WMO) said in its State of the Global Climate in 2021 report released on Wednesday. “Our climate is changing before our eyes,” said WMO chief Petteri Taalas.
 
-“The heat trapped by human-induced greenhouse gases will warm the planet for many generations to come. Sea level rise, ocean heat and acidification will continue for hundreds of years unless means to remove carbon from the atmosphere are invented.”</mutableString>
+“The heat trapped by human-induced greenhouse gases will warm the planet for many generations to come. Sea level rise, ocean heat and acidification will continue for hundreds of years unless means to remove carbon from the atmosphere are invented.”</string>
                                                 <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="17"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
@@ -310,6 +325,39 @@ Greenhouse gas concentrations, sea level rise, ocean heat and ocean acidificatio
                                 <rect key="frame" x="0.0" y="23" width="439" height="873"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0sh-st-aYm">
+                                <rect key="frame" x="59" y="636" width="281" height="61"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" red="0.81960785390000002" green="0.92156863209999995" blue="0.62352943419999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" imagePlacement="leading" title="Our Beauty Planet" imagePadding="10" cornerStyle="capsule">
+                                    <imageReference key="image" image="camera.macro" catalog="system" symbolScale="default"/>
+                                    <color key="baseForegroundColor" systemColor="secondarySystemBackgroundColor"/>
+                                    <color key="baseBackgroundColor" red="0.17254635460000001" green="0.46772286330000001" blue="0.1604316754" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </buttonConfiguration>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DnM-kI-81N">
+                                <rect key="frame" x="59" y="516" width="281" height="61"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" red="0.81960785390000002" green="0.92156863209999995" blue="0.62352943419999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" imagePlacement="leading" title="Our Beauty Planet" imagePadding="10" cornerStyle="capsule">
+                                    <imageReference key="image" image="camera.macro" catalog="system" symbolScale="default"/>
+                                    <color key="baseForegroundColor" systemColor="secondarySystemBackgroundColor"/>
+                                    <color key="baseBackgroundColor" red="0.17254635460000001" green="0.46772286330000001" blue="0.1604316754" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </buttonConfiguration>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="e6U-1S-ZZf">
+                                <rect key="frame" x="59" y="393" width="281" height="61"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" red="0.81960785390000002" green="0.92156863209999995" blue="0.62352943419999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" imagePlacement="leading" title="Our Beauty Planet" imagePadding="10" cornerStyle="capsule">
+                                    <imageReference key="image" image="camera.macro" catalog="system" symbolScale="default"/>
+                                    <color key="baseForegroundColor" systemColor="secondarySystemBackgroundColor"/>
+                                    <color key="baseBackgroundColor" red="0.17254635460000001" green="0.46772286330000001" blue="0.1604316754" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </buttonConfiguration>
+                            </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" id="Ejg-th-Azz">
                                 <rect key="frame" x="0.0" y="91" width="89" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -326,6 +374,17 @@ Greenhouse gas concentrations, sea level rise, ocean heat and ocean acidificatio
                                 <connections>
                                     <segue destination="aPC-wH-6pV" kind="show" id="Hue-So-MzA"/>
                                 </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YKr-TN-Ae4">
+                                <rect key="frame" x="59" y="749" width="281" height="61"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" red="0.81960785390000002" green="0.92156863209999995" blue="0.62352943419999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" imagePlacement="leading" title="Our Beauty Planet" imagePadding="10" cornerStyle="capsule">
+                                    <imageReference key="image" image="camera.macro" catalog="system" symbolScale="default"/>
+                                    <color key="baseForegroundColor" systemColor="secondarySystemBackgroundColor"/>
+                                    <color key="baseBackgroundColor" red="0.17254635460000001" green="0.46772286330000001" blue="0.1604316754" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </buttonConfiguration>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="bXm-GE-siS"/>
@@ -378,7 +437,7 @@ Greenhouse gas concentrations, sea level rise, ocean heat and ocean acidificatio
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="P0e-bz-jbr"/>
+        <segue reference="cYB-tV-f0Q"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="Save Our Environment Climate Change Poster (Phone Wallpaper) (5)" width="1620" height="2880"/>
@@ -388,6 +447,7 @@ Greenhouse gas concentrations, sea level rise, ocean heat and ocean acidificatio
         <image name="arrow.left.circle" catalog="system" width="128" height="121"/>
         <image name="arrow.right.circle" catalog="system" width="128" height="121"/>
         <image name="articles page" width="1620" height="2880"/>
+        <image name="camera.macro" catalog="system" width="128" height="113"/>
         <image name="camera.on.rectangle.fill" catalog="system" width="128" height="96"/>
         <image name="carbon footprint" width="1620" height="2880"/>
         <image name="carbon footprint (1)" width="1620" height="2880"/>
