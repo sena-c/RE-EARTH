@@ -196,6 +196,26 @@
                                 <rect key="frame" x="0.0" y="22" width="476" height="842"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Hhn-aa-AT7">
+                                <rect key="frame" x="252" y="427" width="129" height="23"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="tinted" image="arrow.right.circle" catalog="system" imagePlacement="trailing" title="Read More" imagePadding="7" cornerStyle="capsule">
+                                    <backgroundConfiguration key="background"/>
+                                    <color key="baseForegroundColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <color key="baseBackgroundColor" red="0.29799212244746232" green="0.34181449339561853" blue="0.31488572120467306" alpha="0.96015525350765307" colorSpace="custom" customColorSpace="displayP3"/>
+                                </buttonConfiguration>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0Eg-eC-15u">
+                                <rect key="frame" x="252" y="669" width="129" height="23"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="tinted" image="arrow.right.circle" catalog="system" imagePlacement="trailing" title="Read More" imagePadding="7" cornerStyle="capsule">
+                                    <backgroundConfiguration key="background"/>
+                                    <color key="baseForegroundColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <color key="baseBackgroundColor" red="0.2979921224" green="0.34181449339999997" blue="0.31488572120000002" alpha="0.96015525349999997" colorSpace="custom" customColorSpace="displayP3"/>
+                                </buttonConfiguration>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="eOa-oX-MDo"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -210,14 +230,14 @@
         <scene sceneID="yKf-In-5Fp">
             <objects>
                 <viewController id="uAR-wV-xlt" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="6JN-Hj-gp0">
+                    <view key="view" contentMode="scaleToFill" ambiguous="YES" id="6JN-Hj-gp0">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vFn-0o-FjG">
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="vFn-0o-FjG">
                                 <rect key="frame" x="0.0" y="44" width="414" height="818"/>
                                 <subviews>
-                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="EK9-qo-kw6">
+                                    <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="EK9-qo-kw6">
                                         <rect key="frame" x="0.0" y="0.0" width="414" height="1500"/>
                                         <color key="backgroundColor" red="0.74126267430000004" green="0.85101896519999998" blue="0.78430622819999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <color key="tintColor" red="0.72167915110000003" green="0.83924561740000003" blue="0.77646392580000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -245,6 +265,7 @@
                             <constraint firstItem="abK-vu-lhY" firstAttribute="bottom" secondItem="vFn-0o-FjG" secondAttribute="bottom" id="rLC-3f-En5"/>
                         </constraints>
                     </view>
+                    <navigationItem key="navigationItem" id="CYG-Ae-sHh"/>
                     <size key="freeformSize" width="414" height="896"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="jXe-IZ-Urz" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -338,6 +359,7 @@
         <image name="Save Our Environment Climate Change Poster (Phone Wallpaper) (6)" width="1620" height="2880"/>
         <image name="Save Our Environment Climate Change Poster (Phone Wallpaper) (7)" width="1620" height="2880"/>
         <image name="arrow.left.circle" catalog="system" width="128" height="121"/>
+        <image name="arrow.right.circle" catalog="system" width="128" height="121"/>
         <image name="articles page" width="1620" height="2880"/>
         <image name="camera.on.rectangle.fill" catalog="system" width="128" height="96"/>
         <image name="carbon footprint" width="1620" height="2880"/>
