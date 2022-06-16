@@ -196,19 +196,20 @@
                                 <rect key="frame" x="0.0" y="22" width="476" height="842"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Hhn-aa-AT7">
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Hhn-aa-AT7">
                                 <rect key="frame" x="252" y="427" width="129" height="23"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="tinted" image="arrow.right.circle" catalog="system" imagePlacement="trailing" title="Read More" imagePadding="7" cornerStyle="capsule">
                                     <backgroundConfiguration key="background"/>
                                     <color key="baseForegroundColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     <color key="baseBackgroundColor" red="0.29799212244746232" green="0.34181449339561853" blue="0.31488572120467306" alpha="0.96015525350765307" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <segue destination="uAR-wV-xlt" kind="show" id="Lcr-Ov-VpX"/>
+                                </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0Eg-eC-15u">
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0Eg-eC-15u">
                                 <rect key="frame" x="252" y="669" width="129" height="23"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="tinted" image="arrow.right.circle" catalog="system" imagePlacement="trailing" title="Read More" imagePadding="7" cornerStyle="capsule">
                                     <backgroundConfiguration key="background"/>
@@ -219,6 +220,12 @@
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="eOa-oX-MDo"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="Hhn-aa-AT7" firstAttribute="leading" secondItem="eOa-oX-MDo" secondAttribute="leading" constant="252" id="Y2c-Z0-HL7"/>
+                            <constraint firstItem="Hhn-aa-AT7" firstAttribute="top" secondItem="eOa-oX-MDo" secondAttribute="top" constant="383" id="gV6-gV-Tx5"/>
+                            <constraint firstItem="0Eg-eC-15u" firstAttribute="top" secondItem="Hhn-aa-AT7" secondAttribute="bottom" constant="219" id="rnb-As-reL"/>
+                            <constraint firstItem="eOa-oX-MDo" firstAttribute="trailing" secondItem="Hhn-aa-AT7" secondAttribute="trailing" constant="33" id="tjy-Z6-HAT"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="Dgm-df-hHX"/>
                 </viewController>
@@ -231,7 +238,7 @@
             <objects>
                 <viewController id="uAR-wV-xlt" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" ambiguous="YES" id="6JN-Hj-gp0">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="vFn-0o-FjG">
@@ -239,6 +246,20 @@
                                 <subviews>
                                     <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="EK9-qo-kw6">
                                         <rect key="frame" x="0.0" y="0.0" width="414" height="1500"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="29" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qoI-MK-GQK">
+                                                <rect key="frame" x="35" y="81" width="345" height="804"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <mutableString key="text">Four key climate change indicators all set new record highs in 2021, the United Nations has said, warning that the global energy system was driving humanity towards catastrophe and calling for an urgent transition to renewable energy.
+
+Greenhouse gas concentrations, sea level rise, ocean heat and ocean acidification all set new records last year, the UN’s World Meteorological Organization (WMO) said in its State of the Global Climate in 2021 report released on Wednesday. “Our climate is changing before our eyes,” said WMO chief Petteri Taalas.
+
+“The heat trapped by human-induced greenhouse gases will warm the planet for many generations to come. Sea level rise, ocean heat and acidification will continue for hundreds of years unless means to remove carbon from the atmosphere are invented.”</mutableString>
+                                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
                                         <color key="backgroundColor" red="0.74126267430000004" green="0.85101896519999998" blue="0.78430622819999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <color key="tintColor" red="0.72167915110000003" green="0.83924561740000003" blue="0.77646392580000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <constraints>
@@ -251,6 +272,7 @@
                                     <constraint firstAttribute="bottom" secondItem="EK9-qo-kw6" secondAttribute="bottom" id="6Ud-8Q-ipz"/>
                                     <constraint firstAttribute="trailing" secondItem="EK9-qo-kw6" secondAttribute="trailing" id="Nds-6u-Vxv"/>
                                     <constraint firstItem="EK9-qo-kw6" firstAttribute="top" secondItem="vFn-0o-FjG" secondAttribute="top" id="ft8-y9-Ck7"/>
+                                    <constraint firstAttribute="bottom" secondItem="EK9-qo-kw6" secondAttribute="bottom" id="g29-ei-PMB"/>
                                 </constraints>
                             </scrollView>
                         </subviews>
@@ -270,7 +292,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="jXe-IZ-Urz" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2592.753623188406" y="11.383928571428571"/>
+            <point key="canvasLocation" x="2585.507246376812" y="53.571428571428569"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="ewR-fx-9kz">
