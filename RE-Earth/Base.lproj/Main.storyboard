@@ -295,10 +295,10 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vFn-0o-FjG">
-                                <rect key="frame" x="0.0" y="44" width="414" height="2140"/>
+                                <rect key="frame" x="0.0" y="44" width="414" height="1566.5"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="EK9-qo-kw6">
-                                        <rect key="frame" x="0.0" y="0.0" width="414" height="3656"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="2696"/>
                                         <subviews>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" image="Screen Shot 2022-06-16 at 22.04.42" translatesAutoresizingMaskIntoConstraints="NO" id="k7l-TS-iQ3">
                                                 <rect key="frame" x="12" y="42" width="390" height="264"/>
@@ -315,7 +315,7 @@ Greenhouse gas concentrations, sea level rise, ocean heat and ocean acidificatio
                                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="MOUNTAINS VIDEO (2)" translatesAutoresizingMaskIntoConstraints="NO" id="hRa-Sh-Dtu">
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="CALCULATOR (1)" translatesAutoresizingMaskIntoConstraints="NO" id="hRa-Sh-Dtu">
                                                 <rect key="frame" x="-8" y="88" width="396" height="732"/>
                                             </imageView>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" id="bpS-kf-rAC">
@@ -496,13 +496,13 @@ Greenhouse gas concentrations, sea level rise, ocean heat and ocean acidificatio
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="rsz-Rr-A6p"/>
+        <segue reference="b90-z2-z9q"/>
         <segue reference="cYB-tV-f0Q"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="CALCULATOR" width="1620" height="2880"/>
+        <image name="CALCULATOR (1)" width="1080" height="1920"/>
         <image name="FORESTS FINAL FINAL" width="3264" height="864"/>
-        <image name="MOUNTAINS VIDEO (2)" width="1620" height="2880"/>
         <image name="MOUNTAINS VIDEO (3)" width="1620" height="2880"/>
         <image name="OCEANs FINAL FINAL" width="3264" height="864"/>
         <image name="Save Our Environment Climate Change Poster (Phone Wallpaper) (5)" width="1620" height="2880"/>
