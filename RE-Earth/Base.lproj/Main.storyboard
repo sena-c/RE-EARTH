@@ -325,39 +325,6 @@ Greenhouse gas concentrations, sea level rise, ocean heat and ocean acidificatio
                                 <rect key="frame" x="0.0" y="23" width="439" height="873"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0sh-st-aYm">
-                                <rect key="frame" x="59" y="636" width="281" height="61"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="tintColor" red="0.81960785390000002" green="0.92156863209999995" blue="0.62352943419999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" imagePlacement="leading" title="Our Beauty Planet" imagePadding="10" cornerStyle="capsule">
-                                    <imageReference key="image" image="camera.macro" catalog="system" symbolScale="default"/>
-                                    <color key="baseForegroundColor" systemColor="secondarySystemBackgroundColor"/>
-                                    <color key="baseBackgroundColor" red="0.17254635460000001" green="0.46772286330000001" blue="0.1604316754" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                </buttonConfiguration>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DnM-kI-81N">
-                                <rect key="frame" x="59" y="516" width="281" height="61"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="tintColor" red="0.81960785390000002" green="0.92156863209999995" blue="0.62352943419999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" imagePlacement="leading" title="Our Beauty Planet" imagePadding="10" cornerStyle="capsule">
-                                    <imageReference key="image" image="camera.macro" catalog="system" symbolScale="default"/>
-                                    <color key="baseForegroundColor" systemColor="secondarySystemBackgroundColor"/>
-                                    <color key="baseBackgroundColor" red="0.17254635460000001" green="0.46772286330000001" blue="0.1604316754" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                </buttonConfiguration>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="e6U-1S-ZZf">
-                                <rect key="frame" x="59" y="393" width="281" height="61"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="tintColor" red="0.81960785390000002" green="0.92156863209999995" blue="0.62352943419999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" imagePlacement="leading" title="Our Beauty Planet" imagePadding="10" cornerStyle="capsule">
-                                    <imageReference key="image" image="camera.macro" catalog="system" symbolScale="default"/>
-                                    <color key="baseForegroundColor" systemColor="secondarySystemBackgroundColor"/>
-                                    <color key="baseBackgroundColor" red="0.17254635460000001" green="0.46772286330000001" blue="0.1604316754" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                </buttonConfiguration>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" id="Ejg-th-Azz">
                                 <rect key="frame" x="0.0" y="91" width="89" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -375,15 +342,31 @@ Greenhouse gas concentrations, sea level rise, ocean heat and ocean acidificatio
                                     <segue destination="aPC-wH-6pV" kind="show" id="Hue-So-MzA"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YKr-TN-Ae4">
-                                <rect key="frame" x="59" y="749" width="281" height="61"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9i5-Bj-iBd">
+                                <rect key="frame" x="-11" y="366" width="459" height="126"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="tintColor" red="0.81960785390000002" green="0.92156863209999995" blue="0.62352943419999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="tintColor" red="0.29799212244746232" green="0.34181449339561853" blue="0.31488572120467306" alpha="0.0" colorSpace="custom" customColorSpace="displayP3"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" imagePlacement="leading" title="Our Beauty Planet" imagePadding="10" cornerStyle="capsule">
-                                    <imageReference key="image" image="camera.macro" catalog="system" symbolScale="default"/>
-                                    <color key="baseForegroundColor" systemColor="secondarySystemBackgroundColor"/>
-                                    <color key="baseBackgroundColor" red="0.17254635460000001" green="0.46772286330000001" blue="0.1604316754" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <buttonConfiguration key="configuration" style="filled">
+                                    <backgroundConfiguration key="background" image="FORESTS FINAL FINAL"/>
+                                </buttonConfiguration>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="q6k-8o-imV">
+                                <rect key="frame" x="-10" y="670" width="459" height="126"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" red="0.2979921224" green="0.34181449339999997" blue="0.31488572120000002" alpha="0.0" colorSpace="custom" customColorSpace="displayP3"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled">
+                                    <backgroundConfiguration key="background" image="OCEANs FINAL FINAL"/>
+                                </buttonConfiguration>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cmk-jV-Qdh">
+                                <rect key="frame" x="-10" y="517" width="459" height="126"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" red="0.2979921224" green="0.34181449339999997" blue="0.31488572120000002" alpha="0.0" colorSpace="custom" customColorSpace="displayP3"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled">
+                                    <backgroundConfiguration key="background" image="mountains final final"/>
                                 </buttonConfiguration>
                             </button>
                         </subviews>
@@ -394,7 +377,7 @@ Greenhouse gas concentrations, sea level rise, ocean heat and ocean acidificatio
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="TWy-aa-mgj" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="958" y="753"/>
+            <point key="canvasLocation" x="957.97101449275374" y="752.67857142857144"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="YLD-Gs-ZJd">
@@ -437,9 +420,11 @@ Greenhouse gas concentrations, sea level rise, ocean heat and ocean acidificatio
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="cYB-tV-f0Q"/>
+        <segue reference="Hue-So-MzA"/>
     </inferredMetricsTieBreakers>
     <resources>
+        <image name="FORESTS FINAL FINAL" width="3264" height="864"/>
+        <image name="OCEANs FINAL FINAL" width="3264" height="864"/>
         <image name="Save Our Environment Climate Change Poster (Phone Wallpaper) (5)" width="1620" height="2880"/>
         <image name="Save Our Environment Climate Change Poster (Phone Wallpaper) (6)" width="1620" height="2880"/>
         <image name="Save Our Environment Climate Change Poster (Phone Wallpaper) (7)" width="1620" height="2880"/>
@@ -447,13 +432,13 @@ Greenhouse gas concentrations, sea level rise, ocean heat and ocean acidificatio
         <image name="arrow.left.circle" catalog="system" width="128" height="121"/>
         <image name="arrow.right.circle" catalog="system" width="128" height="121"/>
         <image name="articles page" width="1620" height="2880"/>
-        <image name="camera.macro" catalog="system" width="128" height="113"/>
         <image name="camera.on.rectangle.fill" catalog="system" width="128" height="96"/>
         <image name="carbon footprint" width="1620" height="2880"/>
         <image name="carbon footprint (1)" width="1620" height="2880"/>
         <image name="carbon footprint (2)" width="1620" height="2880"/>
         <image name="globe.americas.fill" catalog="system" width="128" height="121"/>
         <image name="megaphone.fill" catalog="system" width="128" height="114"/>
+        <image name="mountains final final" width="3264" height="864"/>
         <image name="newspaper.fill" catalog="system" width="128" height="111"/>
         <systemColor name="secondarySystemBackgroundColor">
             <color red="0.94901960784313721" green="0.94901960784313721" blue="0.96862745098039216" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
