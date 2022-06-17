@@ -17,7 +17,7 @@ class ExploreOurPlanetViewController: UIViewController {
     
 
     @IBAction func ForestLink(_ sender: UIButton) {
-        UIApplication.shared.open(URL(string:"https://www.youtube.com/watch?v=sG-YckZZNsE")!as URL, options: [:], completionHandler: nil)
+        UIApplication.shared.open(URL(string:"https://youtu.be/MUlD_qEK__k")!as URL, options: [:], completionHandler: nil)
     }
     
     
@@ -29,7 +29,7 @@ class ExploreOurPlanetViewController: UIViewController {
     
     
     @IBAction func OceansLink(_ sender: UIButton) {
-        UIApplication.shared.open(URL(string:"https://youtu.be/udcbKbQL1ks")!as URL, options: [:], completionHandler: nil)
+        UIApplication.shared.open(URL(string:"https://youtu.be/DbECGk-sFXY")!as URL, options: [:], completionHandler: nil)
     }
     
     
