@@ -1,22 +1,25 @@
 //
-//  Articles1.swift
+//  BBCArticle.swift
 //  CameraUsePractice
 //
-//  Created by Eva Gonzalez Whitehouse on 6/17/22.
+//  Created by Sena Chang on 2022/06/18.
 //
 
 import UIKit
 
-class Articles1: UIViewController {
+class BBCArticle: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.;
+        // Do any additional setup after loading the view.
+    }
     
-        
-
     
+    
+    @IBAction func ReadMoreButton(_ sender: UIButton) {
+        UIApplication.shared.open(URL(string:"https://www.bbc.com/news/science-environment-61802802")!as URL, options: [:], completionHandler: nil)
+    }
     /*
     // MARK: - Navigation
 
@@ -27,8 +30,4 @@ class Articles1: UIViewController {
     }
     */
 
-}
-    @IBAction func Artileeeee(_ sender: UIButton) {
-        UIApplication.shared.open(URL(string:"https://youtu.be/eozjx5hWfmE")!as URL, options: [:], completionHandler: nil)
-    }
 }
