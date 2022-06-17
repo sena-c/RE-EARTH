@@ -39,7 +39,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" red="0.81960785390000002" green="0.92156863209999995" blue="0.62352943419999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" imagePlacement="leading" title="Videos and Audios" imagePadding="10" cornerStyle="capsule">
+                                <buttonConfiguration key="configuration" style="filled" imagePlacement="leading" title="Explore our Planet" imagePadding="10" cornerStyle="capsule">
                                     <imageReference key="image" image="camera.on.rectangle.fill" catalog="system" symbolScale="default"/>
                                     <color key="baseForegroundColor" systemColor="secondarySystemBackgroundColor"/>
                                     <color key="baseBackgroundColor" red="0.17254635455084327" green="0.46772286326614854" blue="0.16043167538886688" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -153,20 +153,6 @@
                                     <segue destination="aPC-wH-6pV" kind="show" id="cYB-tV-f0Q"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dGu-87-gox">
-                                <rect key="frame" x="59" y="432" width="281" height="62"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="tintColor" red="0.75170208299999997" green="0.85145341750000003" blue="0.57778592409999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" image="globe.americas.fill" catalog="system" imagePlacement="leading" title="Carbon Foot Print Calculator" imagePadding="10" cornerStyle="capsule">
-                                    <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                    <color key="baseBackgroundColor" red="0.092213900069999993" green="0.24996499920000001" blue="0.085739455470000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                </buttonConfiguration>
-                                <connections>
-                                    <action selector="CarbonCal:" destination="0ab-PW-KDn" eventType="touchUpInside" id="MVN-LY-Y24"/>
-                                    <action selector="CarbonCalculator:" destination="0ab-PW-KDn" eventType="touchUpInside" id="ueq-oM-ODs"/>
-                                </connections>
-                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="cst-mG-qo4"/>
                         <color key="backgroundColor" red="0.72160714859999997" green="0.7764926553" blue="0.74117249249999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -174,7 +160,6 @@
                     <navigationItem key="navigationItem" id="bdO-t8-xBG"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x4e-bP-b68" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-                <exit id="0ab-PW-KDn" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
             <point key="canvasLocation" x="160.86956521739131" y="764.73214285714278"/>
         </scene>
@@ -350,6 +335,12 @@ Greenhouse gas concentrations, sea level rise, ocean heat and ocean acidificatio
                                 <buttonConfiguration key="configuration" style="filled">
                                     <backgroundConfiguration key="background" image="FORESTS FINAL FINAL"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="Btn_URL:" destination="o0z-Vb-Cg6" eventType="touchUpInside" id="mpP-cU-Zwk"/>
+                                    <action selector="UI_Button:" destination="o0z-Vb-Cg6" eventType="touchUpInside" id="PZs-OG-N82"/>
+                                    <action selector="URL_Btn:" destination="o0z-Vb-Cg6" eventType="touchUpInside" id="Tu6-kB-BTY"/>
+                                    <action selector="URl_Button:" destination="o0z-Vb-Cg6" eventType="touchUpInside" id="Zpk-mr-fHm"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="q6k-8o-imV">
                                 <rect key="frame" x="-10" y="670" width="459" height="126"/>
@@ -368,6 +359,9 @@ Greenhouse gas concentrations, sea level rise, ocean heat and ocean acidificatio
                                 <buttonConfiguration key="configuration" style="filled">
                                     <backgroundConfiguration key="background" image="mountains final final"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="Mountains_button:" destination="o0z-Vb-Cg6" eventType="touchUpInside" id="YfU-0k-QId"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="bXm-GE-siS"/>
@@ -376,6 +370,7 @@ Greenhouse gas concentrations, sea level rise, ocean heat and ocean acidificatio
                     <navigationItem key="navigationItem" id="MJa-6i-bIs"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="TWy-aa-mgj" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <exit id="o0z-Vb-Cg6" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
             <point key="canvasLocation" x="957.97101449275374" y="752.67857142857144"/>
         </scene>
