@@ -14,18 +14,16 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
 
-    
-    @IBAction func URL_Btn(_ sender: UIButton) {
-        UIApplication.shared.open(URL(string:"https://www.youtube.com/watch?v=HNOOeRVq9Xw")! as URL, options: [:], completionHandler: nil)
+
+    @IBAction func USVERSION(_ sender: UIButton) {
+        UIApplication.shared.open(URL(string:"https://youtu.be/eozjx5hWfmE")!as URL, options: [:], completionHandler: nil)
     }
     
-    
-    @IBAction func MountainButton(_ sender: UIButton) {
-        UIApplication.shared.open(URL(string:"https://www.youtube.com/watch?v=HNOOeRVq9Xw")! as URL, options: [:], completionHandler: nil)
+    @IBAction func UKVERSIOn(_ sender: UIButton) {
+        UIApplication.shared.open(URL(string:"https://youtu.be/eozjx5hWfmE")!as URL, options: [:], completionHandler: nil)
     }
     
-    
-    }
+}
     
     
 
