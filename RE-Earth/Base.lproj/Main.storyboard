@@ -371,10 +371,10 @@ Greenhouse gas concentrations, sea level rise, ocean heat and ocean acidificatio
             </objects>
             <point key="canvasLocation" x="2585.507246376812" y="53.571428571428569"/>
         </scene>
-        <!--View Controller-->
+        <!--Explore Our Planet View Controller-->
         <scene sceneID="JKk-t5-QUW">
             <objects>
-                <viewController id="ZK7-Fe-gPU" sceneMemberID="viewController">
+                <viewController id="ZK7-Fe-gPU" customClass="ExploreOurPlanetViewController" customModule="CameraUsePractice" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="IVG-7Q-eBJ">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -408,6 +408,9 @@ Greenhouse gas concentrations, sea level rise, ocean heat and ocean acidificatio
                                 <buttonConfiguration key="configuration" style="filled" title="">
                                     <backgroundConfiguration key="background" image="FORESTS FINAL FINAL"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="ForestLink:" destination="ZK7-Fe-gPU" eventType="touchUpInside" id="pg0-Iq-KDQ"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="q6k-8o-imV">
                                 <rect key="frame" x="-10" y="664" width="459" height="126"/>
@@ -417,6 +420,9 @@ Greenhouse gas concentrations, sea level rise, ocean heat and ocean acidificatio
                                 <buttonConfiguration key="configuration" style="filled">
                                     <backgroundConfiguration key="background" image="OCEANs FINAL FINAL"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="OceansLink:" destination="ZK7-Fe-gPU" eventType="touchUpInside" id="FmZ-SH-YDb"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cmk-jV-Qdh">
                                 <rect key="frame" x="-10" y="511" width="459" height="126"/>
@@ -426,6 +432,9 @@ Greenhouse gas concentrations, sea level rise, ocean heat and ocean acidificatio
                                 <buttonConfiguration key="configuration" style="filled">
                                     <backgroundConfiguration key="background" image="mountains final final"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="MountainsLink:" destination="ZK7-Fe-gPU" eventType="touchUpInside" id="VGk-m8-hJD"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="V0j-2p-O3I"/>
@@ -483,8 +492,8 @@ Greenhouse gas concentrations, sea level rise, ocean heat and ocean acidificatio
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="b90-z2-z9q"/>
-        <segue reference="cYB-tV-f0Q"/>
+        <segue reference="rsz-Rr-A6p"/>
+        <segue reference="Hue-So-MzA"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="CALCULATOR" width="1620" height="2880"/>
