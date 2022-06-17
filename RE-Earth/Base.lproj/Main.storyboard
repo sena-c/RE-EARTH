@@ -124,10 +124,10 @@
             </objects>
             <point key="canvasLocation" x="100" y="53"/>
         </scene>
-        <!--View Controller-->
+        <!--Carbon Calculator-->
         <scene sceneID="Y5g-vp-RGu">
             <objects>
-                <viewController id="Njf-46-29y" sceneMemberID="viewController">
+                <viewController id="Njf-46-29y" customClass="CarbonCalculator" customModule="CameraUsePractice" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="hed-7c-clc">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -165,6 +165,9 @@
                                     <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     <color key="baseBackgroundColor" red="0.58807513410000001" green="0.67455677150000004" blue="0.62141395290000001" alpha="0.49475346780000001" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="USVersion:" destination="Njf-46-29y" eventType="touchUpInside" id="Qvf-h8-Gzb"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vQ7-d0-RYt">
                                 <rect key="frame" x="204" y="738" width="111" height="44"/>
@@ -176,6 +179,7 @@
                                 </buttonConfiguration>
                                 <connections>
                                     <action selector="UKVERSIOn:" destination="0ab-PW-KDn" eventType="touchUpInside" id="laW-6J-EbT"/>
+                                    <action selector="UKVersion:" destination="Njf-46-29y" eventType="touchUpInside" id="LB1-mE-hgz"/>
                                 </connections>
                             </button>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="17X-ie-eZE">
@@ -493,7 +497,7 @@ Greenhouse gas concentrations, sea level rise, ocean heat and ocean acidificatio
     </scenes>
     <inferredMetricsTieBreakers>
         <segue reference="rsz-Rr-A6p"/>
-        <segue reference="Hue-So-MzA"/>
+        <segue reference="cYB-tV-f0Q"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="CALCULATOR" width="1620" height="2880"/>

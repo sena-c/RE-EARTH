@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		E62FAB8D285CD16B00F4004B /* ExploreOurPlanetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E62FAB8C285CD16B00F4004B /* ExploreOurPlanetViewController.swift */; };
+		E62FAB8F285CD57800F4004B /* CarbonCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E62FAB8E285CD57800F4004B /* CarbonCalculator.swift */; };
 		E6307AD12858DDF200A511FD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6307AD02858DDF200A511FD /* AppDelegate.swift */; };
 		E6307AD32858DDF200A511FD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6307AD22858DDF200A511FD /* SceneDelegate.swift */; };
 		E6307AD52858DDF200A511FD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6307AD42858DDF200A511FD /* ViewController.swift */; };
@@ -43,6 +44,7 @@
 
 /* Begin PBXFileReference section */
 		E62FAB8C285CD16B00F4004B /* ExploreOurPlanetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreOurPlanetViewController.swift; sourceTree = "<group>"; };
+		E62FAB8E285CD57800F4004B /* CarbonCalculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarbonCalculator.swift; sourceTree = "<group>"; };
 		E6307ACD2858DDF200A511FD /* CameraUsePractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CameraUsePractice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E6307AD02858DDF200A511FD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E6307AD22858DDF200A511FD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -113,6 +115,7 @@
 			children = (
 				E6307AD02858DDF200A511FD /* AppDelegate.swift */,
 				E6307AD22858DDF200A511FD /* SceneDelegate.swift */,
+				E62FAB8E285CD57800F4004B /* CarbonCalculator.swift */,
 				E6307AD42858DDF200A511FD /* ViewController.swift */,
 				E6307AD62858DDF200A511FD /* Main.storyboard */,
 				E62FAB8C285CD16B00F4004B /* ExploreOurPlanetViewController.swift */,
@@ -291,6 +294,7 @@
 				F6E09AA8285973120008429E /* CarbonFootCalculator.swift in Sources */,
 				F6E09AA4285972C30008429E /* Articles.swift in Sources */,
 				E6307ADB2858DDF200A511FD /* CameraUsePractice.xcdatamodeld in Sources */,
+				E62FAB8F285CD57800F4004B /* CarbonCalculator.swift in Sources */,
 				F6E09AA6285972EC0008429E /* VideosAndAudios.swift in Sources */,
 				E62FAB8D285CD16B00F4004B /* ExploreOurPlanetViewController.swift in Sources */,
 			);
