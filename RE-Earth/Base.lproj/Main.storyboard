@@ -234,11 +234,19 @@
                                 <rect key="frame" x="0.0" y="22" width="476" height="842"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Hhn-aa-AT7">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Hhn-aa-AT7">
                                 <rect key="frame" x="252" y="427" width="129" height="23"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="tinted" image="arrow.right.circle" catalog="system" imagePlacement="trailing" title="Read More" imagePadding="7" cornerStyle="capsule">
+                                <buttonConfiguration key="configuration" style="tinted" image="arrow.right.circle" catalog="system" imagePlacement="trailing" imagePadding="7" cornerStyle="capsule">
                                     <backgroundConfiguration key="background"/>
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="Read More">
+                                            <attributes>
+                                                <font key="NSFont" size="11" name="Helvetica"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
                                     <color key="baseForegroundColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     <color key="baseBackgroundColor" red="0.29799212244746232" green="0.34181449339561853" blue="0.31488572120467306" alpha="0.96015525350765307" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
@@ -246,24 +254,27 @@
                                     <segue destination="uAR-wV-xlt" kind="show" id="Lcr-Ov-VpX"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0Eg-eC-15u">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0Eg-eC-15u">
                                 <rect key="frame" x="252" y="669" width="129" height="23"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="tinted" image="arrow.right.circle" catalog="system" imagePlacement="trailing" title="Read More" imagePadding="7" cornerStyle="capsule">
+                                <buttonConfiguration key="configuration" style="tinted" image="arrow.right.circle" catalog="system" imagePlacement="trailing" imagePadding="7" cornerStyle="capsule">
                                     <backgroundConfiguration key="background"/>
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="Read More">
+                                            <attributes>
+                                                <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                                <font key="NSFont" size="11" name="Helvetica"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
                                     <color key="baseForegroundColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                    <color key="baseBackgroundColor" red="0.2979921224" green="0.34181449339999997" blue="0.31488572120000002" alpha="0.96015525349999997" colorSpace="custom" customColorSpace="displayP3"/>
+                                    <color key="baseBackgroundColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </buttonConfiguration>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="eOa-oX-MDo"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                        <constraints>
-                            <constraint firstItem="Hhn-aa-AT7" firstAttribute="leading" secondItem="eOa-oX-MDo" secondAttribute="leading" constant="252" id="Y2c-Z0-HL7"/>
-                            <constraint firstItem="Hhn-aa-AT7" firstAttribute="top" secondItem="eOa-oX-MDo" secondAttribute="top" constant="383" id="gV6-gV-Tx5"/>
-                            <constraint firstItem="0Eg-eC-15u" firstAttribute="top" secondItem="Hhn-aa-AT7" secondAttribute="bottom" constant="219" id="rnb-As-reL"/>
-                            <constraint firstItem="eOa-oX-MDo" firstAttribute="trailing" secondItem="Hhn-aa-AT7" secondAttribute="trailing" constant="33" id="tjy-Z6-HAT"/>
-                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="Dgm-df-hHX"/>
                 </viewController>
@@ -280,13 +291,13 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vFn-0o-FjG">
-                                <rect key="frame" x="0.0" y="44" width="414" height="2135"/>
+                                <rect key="frame" x="0.0" y="44" width="414" height="2140"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="EK9-qo-kw6">
-                                        <rect key="frame" x="0.0" y="0.0" width="414" height="3648"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="3656"/>
                                         <subviews>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" image="Screen Shot 2022-06-16 at 22.04.42" translatesAutoresizingMaskIntoConstraints="NO" id="k7l-TS-iQ3">
-                                                <rect key="frame" x="8" y="45" width="390" height="228"/>
+                                                <rect key="frame" x="12" y="42" width="390" height="264"/>
                                             </imageView>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="29" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qoI-MK-GQK">
                                                 <rect key="frame" x="35" y="243" width="345" height="804"/>
@@ -300,8 +311,11 @@ Greenhouse gas concentrations, sea level rise, ocean heat and ocean acidificatio
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="MOUNTAINS VIDEO (2)" translatesAutoresizingMaskIntoConstraints="NO" id="hRa-Sh-Dtu">
+                                                <rect key="frame" x="-8" y="88" width="396" height="732"/>
+                                            </imageView>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" id="bpS-kf-rAC">
-                                                <rect key="frame" x="-8" y="0.0" width="89" height="34"/>
+                                                <rect key="frame" x="0.0" y="8" width="89" height="34"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <inset key="contentEdgeInsets" minX="11" minY="0.0" maxX="0.0" maxY="0.0"/>
                                                 <inset key="imageEdgeInsets" minX="0.0" minY="8" maxX="0.0" maxY="0.0"/>
@@ -317,9 +331,6 @@ Greenhouse gas concentrations, sea level rise, ocean heat and ocean acidificatio
                                                     <segue destination="J9n-f0-szq" kind="show" id="b90-z2-z9q"/>
                                                 </connections>
                                             </button>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="MOUNTAINS VIDEO (2)" translatesAutoresizingMaskIntoConstraints="NO" id="hRa-Sh-Dtu">
-                                                <rect key="frame" x="-8" y="88" width="396" height="732"/>
-                                            </imageView>
                                         </subviews>
                                         <color key="backgroundColor" red="0.74126267430000004" green="0.85101896519999998" blue="0.78430622819999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <color key="tintColor" red="0.72167915110000003" green="0.83924561740000003" blue="0.77646392580000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -472,8 +483,9 @@ Greenhouse gas concentrations, sea level rise, ocean heat and ocean acidificatio
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="rsz-Rr-A6p"/>
-        <segue reference="cYB-tV-f0Q"/>
+        <segue reference="Lcr-Ov-VpX"/>
+        <segue reference="b90-z2-z9q"/>
+        <segue reference="P0e-bz-jbr"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="CALCULATOR" width="1620" height="2880"/>
